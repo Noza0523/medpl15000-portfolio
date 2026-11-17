@@ -1,0 +1,150 @@
+
+/* Overall website */
+body {
+    background-color: #f8f5f0;
+    color: #45413f;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 1050px;
+    margin: 40px auto;
+    padding: 0 30px;
+}
+
+/* Main title */
+h1 {
+    background-color: #ead9d9;
+    color: #713b4b;
+    font-family: "Palatino Linotype", Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 35px 20px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+}
+
+/* Section headings */
+h2 {
+    color: #713b4b;
+    font-family: "Palatino Linotype", Georgia, serif;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+/* Images */
+img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    margin: 15px;
+}
+
+/* Links */
+a {
+    color: #914e63;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #65745b;
+    text-decoration: underline;
+}
+
+/* Lists */
+ul {
+    background-color: #fffdf9;
+    padding: 20px 45px;
+    border-radius: 15px;
+}
+
+li {
+    margin: 15px;
+    font-size: 17px;
+}
+
+/* Footer */
+hr {
+    border: none;
+    border-top: 1px solid #d9c5c2;
+    margin-top: 45px;
+}
+
+center p {
+    color: #77716d;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/* Assignment page design */
+
+.assignment-list {
+    list-style: none;
+    padding: 15px;
+    background-color: transparent;
+}
+
+.assignment-list li {
+    background-color: #fffdf9;
+    padding: 18px 22px;
+    margin: 15px 0;
+    border-left: 5px solid #b77b89;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+}
+
+.assignment-list li:hover {
+    background-color: #ead9d9;
+}
+
+.assignment-list a {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+
+
+
+
+/* Reading page design */
+
+.reading-list {
+    list-style: none;
+    padding: 15px;
+    background-color: transparent;
+}
+
+.reading-list li {
+    background-color: #fffdf9;
+    padding: 20px;
+    margin: 18px 0;
+    border-left: 5px solid #9a806e;
+    border-radius: 10px;
+}
+
+.reading-list li p {
+    font-size: 15px;
+    color: #77716d;
+    margin-bottom: 0;
+}
+
+.reading-list a {
+    font-size: 19px;
+}
